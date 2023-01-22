@@ -1,0 +1,36 @@
+#explore{
+    .container{
+        .cards-explore{
+           .images{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-bottom: 55px;
+           }
+           .subjectsBtn{
+            margin-left: 40%;
+            margin-top: 30px;
+            text-align: center;
+            width: 270px;
+            height: 60px;
+            border: 2px solid #ff9f67;
+            border-radius: 5px;
+            background: linear-gradient(to bottom, #ff9f67 50%, transparent 50%);
+            background-size:  100% 200%;
+            background-position: bottom;
+            transition: all .5s ease-out;
+            color: #ff9f67;
+            text-align: center;
+            font-size: 17px; 
+            transition: all .6s ease-out;
+            display: block;
+                  &:hover{
+                      background-position: top;
+                      cursor: pointer;
+                      color: #fff;
+                  }
+           }
+        }
+    }
+}

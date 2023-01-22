@@ -1,0 +1,121 @@
+#footer{
+    background-color: #4255a4;
+    margin-top: 3%;
+    .container{
+        .footerSection{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 0;
+            .logo{
+                .p_footer{
+                    color: #fff;
+                    width: 300px;
+                    font-family: 'Mulish', sans-serif;
+                }
+               .logos{
+                display: flex;
+                margin-top: 25px;
+                .logo1{
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    background-color: #485aad;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 10px;
+                    i{
+                        color: #fff;
+                    }
+                }
+                .logo2{
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    background-color: #485aad;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 10px;
+                    i{
+                        color: #fff;
+                    }
+                }
+                .logo3{
+                    width: 40px;
+                    height: 40px;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    background-color: #485aad;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 10px;
+                    i{
+                        color: #fff;
+                    }
+                }
+               }
+            }
+            .solutions{
+                ul{
+                    list-style: none;
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: 'Mulish', sans-serif;
+                    li{
+                        margin: 12px 0;
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+            .support{
+                ul{
+                    list-style: none;
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: 'Mulish', sans-serif;
+                    li{
+                        margin: 12px 0;
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+            .company{
+                ul{
+                    list-style: none;
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: 'Mulish', sans-serif;
+                    li{
+                        margin: 12px 0;
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

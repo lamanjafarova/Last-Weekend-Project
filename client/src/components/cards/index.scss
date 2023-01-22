@@ -1,0 +1,40 @@
+.container{
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 70px;
+        bottom: 0;
+        z-index: 2;
+        position: absolute;
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            height: 150px;
+            padding: 15px 15px;
+            background-color: #fff;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            .image_card{
+                width: 20%;
+                padding-left: 10px;
+            }
+            .card_text{
+                width: 80%;
+                margin: 5px 20px;
+                .h3_text_title{
+                    color: #4255a4;
+                    font-size: 25px;
+                    margin-bottom: 10px;
+                }
+                .p-text-card{
+                    color: #4255a4;
+                    opacity: 0.8;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

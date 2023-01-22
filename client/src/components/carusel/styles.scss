@@ -1,0 +1,111 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carusel{
+  a{
+    text-decoration: none;
+  }
+  .featuredCard{
+    .featuredInfo{
+      .title{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #6e7697;
+        text-align: start;
+        font-size: 20px;
+      }
+      .name{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #4255A4;
+        text-align: start;
+        font-size: 25px;
+      }
+    }
+    .rating{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .stars{
+        font-size: 15px;
+        i{
+        color: #ff7b2e;
+        }
+        .p_txt{
+          color: #6e7697;
+          span{
+            color: #ff7b2e;
+          }
+        }
+      }
+      .price{
+        color: #4255A4;
+        font-size: 24px;
+        font-weight: bolder;
+      }
+    }
+    .findBtn{
+      margin: 27px;
+      width: 80%;
+      height: 50px;
+      border: none;
+      border-radius: 5px;
+      background: linear-gradient(to bottom, #ff9f67 50%, transparent 50%);
+      background-size:  100% 200%;
+      background-position: bottom;
+      transition: all .5s ease-out;
+      color: #4255A4;
+      text-align: center;
+      font-size: 17px; 
+      transition: all .6s ease-out;
+      display: block;
+            &:hover{
+                background-position: top;
+                cursor: pointer;
+                color: #fff;
+            }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+#header{
+    box-sizing: border-box;
+    background-color: #6778ff;
+    padding: 20px 0;
+    .container{
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .header-img{
+              margin-left: 10px;
+            }
+            nav{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 18px;
+                ul{
+                    display: flex;
+                    list-style: none;
+                    column-gap: 30px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-size: 15px;
+                    a{
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+                .btnGroup {
+                    button {
+                      border: 1px solid #fff;
+                      background-color: transparent;
+                      border-radius: 5px;
+                      color: #fff;
+                      font-size: 17px;
+                      cursor: pointer;
+                      transition: all 0.7s;
+                      font-family: 'Josefin Sans', sans-serif;
+                    }
+                    .join-btn {
+                      padding: 15px 35px;
+                      border: none;
+                      margin: 0 20px;
+                      background-color: #ff9f67;
+                      &:hover {
+                        box-shadow: inset 400px 0 0 0 #6f42c1;
+                      }
+                    }
+                    .logIn-btn{
+                      padding: 15px 30px;
+                      margin-right: 8px;
+                      &:hover {
+                        background-color: #ff9f67;
+                        transform: scale(1.05);
+                      }
+                    }
+                }
+            }
+        }
+    }
+}
